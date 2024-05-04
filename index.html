@@ -1,29 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Favorate Recipes</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>home</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
 
-    <body>
-        <h1 class="title">My Favorite Recipes</h1>
+        <body>
+            <div class="header-container">
+                <div class="header">
 
-        <div>
-            <p class="home-description">
-                Some of my favorite food dishes and how to make them!
-            </p>
+                    <div class="logo">Recipes!</div>
 
-            <div class="page-image">
-                <img src="./images/cooking.jpeg" height="auto" width="500">
+                </div>
             </div>
 
-            <ul class="links">
-                <li><a href="./recipes/brownies.html">Brownies</a></li>
-                <li><a href="./recipes/orange-chicken.html">Orange Chicken</a></li>
-                <li><a href="./recipes/pork-chow-mein.html">Pork Chow Mein</a></li>
-            </ul>
-        </div>
-    </body>
-</html>
+            <div class="home-container">
+                <div class="home-description">
+                    <div>Click on an image bellow to go to its recipe...</div>
+                </div>
+
+                <div class="photo-grid-container">
+                    <div class="photo-grid">
+                        <div class="grid-item-container">
+                            <div class="grid-item-title">Brownie Recipe</div>
+
+                            <div class="photo-grid-item first-item">
+                                <a href="./pages/page-two.html"><img src="./images/brownie.jpeg" height="300px" width="300px"></a>
+                            </div>
+                        </div>
+
+                        <div class="grid-item-container">
+                            <div class="grid-item-title">Pork Chow Mein Recipe</div>
+
+                            <div class="photo-grid-item">
+                                <a href="./pages/page-three.html"><img src="./images/pork-chow-mein.jpeg" height="300px" width="300px"></a>
+                            </div>
+                        </div>
+
+                        <div class="grid-item-container">
+                            <div class="grid-item-title">
+                                <div>Orange Chicken Recipe</div>
+                            </div>
+
+                            <div class="photo-grid-item">
+                                <a href="./pages/page-four.html"><img src="./images/orange-chicken.webp" height="300px" width="300px"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
